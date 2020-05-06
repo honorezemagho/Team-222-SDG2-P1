@@ -1,7 +1,7 @@
-barebones setup for JavaScript / Node projects replace this with a one-liner phrase describing this project or app
+## PROJECT NAME
+A simple web application that will help to double productivity for small scale food producers in our community.
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5857cc5891c044759e56cdbc214fa97b)](https://app.codacy.com/gh/BuildForSDG/Team-222-SDG2-P1?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDG/Team-222-SDG2-P1&utm_campaign=Badge_Grade_Settings)
-[![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
 
 ## About
@@ -18,7 +18,13 @@ This is a simple JavaScript starter repo template for setting up your project. T
 
 ## Why
 
-Talk about what problem this solves, what SDG(s) and SGD targets it addresses and why these are imoirtant
+Over the years, farmers in Africa find it difficult to get investment, obtain a loan or insure their farm. Africa now has an increase in demand for farm produce. Without a good investment or loan, farmers find it difficult to scale up their farms. Hence, increasing the rate of hunger in the continent.
+
+With our innovative solution, we are looking forward to eliminating hunger in Africa by providing a platform where:
+- Farmers can easily get investment, loan. With these, the farmer will be able to scale up his farm in order to meet up with demand.
+- Farmers can be insured in case of an accident.
+- Investors can easily get to farmers, we believe working directly with the farmer will build trust.
+- Insurance companies can easily meet with local farmers.
 
 ## Usage
  How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
@@ -38,23 +44,21 @@ This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bun
 
 #### Hints
 
-- Run `npm install` or `yarn install` to get started. We'll assume you are using Yarn.
-- Install additional dependencies: `yarn add <dependency-name> [-D]`
-- Run tests: `yarn test`
-- Run tests with test coverage info: `yarn test:cover`
-- Check the codebase for proper syntax and formatting compliance: `yarn lint`
-- Run your app in local dev mode: `yarn start`. This puts the bundled app in a `dist` folder, set up a local web server at localhost:1234, and continues to watch for your code changes which it syncs with the local server. This means if you loaded the app in a browser, it will auto-refresh as you code along. Feel free to use whatever bundler best meets your needs. Parcel was only added as a sample and for those looking for a simple but effective solution to the hassle of bundlers. 
+- Run `npm install` or `yarn install` to get started.
+- Install additional dependencies: `yarn add <dependency-name> [-D]` or `npm install <dependency-name>`
+- Run tests: `yarn test` or `npm run test`
+- Run tests with test coverage info: `yarn test:cover` or `npm run test:cover`
+- Check the codebase for proper syntax and formatting compliance: `yarn lint` or `npm run lint`
+- Run your app in local dev mode: `yarn start` or `npm run start`. This puts the bundled app in a `dist` folder, set up a local web server at localhost:1234, and continues to watch for your code changes which it syncs with the local server. This means if you loaded the app in a browser, it will auto-refresh as you code along. Feel free to use whatever bundler best meets your needs. Parcel was only added as a sample and for those looking for a simple but effective solution to the hassle of bundlers. 
 
 ## Authors
 
-List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor
-
-## Contributing
-If this project sounds interesting to you and you'd like to contribute, thank you!
-First, you can send a mail to buildforsdg@andela.com to indicate your interest, why you'd like to support and what forms of support you can bring to the table, but here are areas we think we'd need the most help in this project :
-1.  area one (e.g this app is about human trafficking and you need feedback on your roadmap and feature list from the private sector / NGOs)
-2.  area two (e.g you want people to opt-in and try using your staging app at staging.project-name.com and report any bugs via a form)
-3.  area three (e.g here is the zoom link to our end-of sprint webinar, join and provide feedback as a stakeholder if you can)
+We would like to acknowledge the work/contributions of the following team 222 members:
+1.  [Cyprian Nziim](https://github.com/cyprian-nziim) (**TTL**)
+2.  [Kraulain](https://github.com/kraulain) (**Lead Engineer**)
+3.  [Ayeah Godlove](https://github.com/ayeahgodlove)
+4.  [Kofi Mokome](https://github.com/kofimokome)
+5.  [Honore Zemagho](https://github.com/honorezemagho)
 
 ## Acknowledgements
 
