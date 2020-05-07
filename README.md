@@ -23,10 +23,13 @@ Over the years, farmers in Africa find it difficult to get investment, obtain a 
 
 With our innovative solution, we are looking forward to eliminating hunger in Africa by providing a platform where:
 -   Farmers can easily get investment, loan. With these, the farmer will be able to scale up his farm in order to meet up with demand.
+
 -   Farmers can be insured in case of an accident.
+
 -   Investors can easily get to farmers, we believe working directly with the farmer will build trust.
+
 -   Insurance companies can easily meet with local farmers.
-'
+
 ## Usage
  How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
 
