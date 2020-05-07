@@ -6,7 +6,8 @@ A simple web application that will help to double productivity for small scale f
 
 ## About
 
-What is this project about. Ok to enrich here or the section above it with an image. 
+<!-- What is this project about. Ok to enrich here or the section above it with an image. -->
+This project is aim at developing an innovative solution so that farmers in Africa can find it easy to get investment, obtain a loan or insure their farms, establish a close relationship  between investor, insurance companies and local farmers inorder to double farm producers in Africa. 
 
 Once this repo has been setup on Codacy by the TTL, replace the above badge with the actual one from the Codacy dashboard, and add the code coverage badge as well. This is mandatory
 
@@ -25,7 +26,7 @@ With our innovative solution, we are looking forward to eliminating hunger in Af
 -   Farmers can be insured in case of an accident.
 -   Investors can easily get to farmers, we believe working directly with the farmer will build trust.
 -   Insurance companies can easily meet with local farmers.
-
+'
 ## Usage
  How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
 
