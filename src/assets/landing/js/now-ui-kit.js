@@ -31,6 +31,9 @@ var nowuiKit,
   scroll_distance,
   oVal;
 
+var jQuery = require("jquery");
+window.$ = window.jQuery = jQuery;
+
 $(document).ready(function() {
   //  Activate the Tooltips
   $('[data-toggle="tooltip"], [rel="tooltip"]').tooltip();
