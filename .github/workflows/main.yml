@@ -37,4 +37,4 @@ jobs:
         target _ branch: gh—pages
         build dir: build
         env:
-        GITHUB TOKEN: {{$secrets.GITHUB_REPO_TOKEN}}
+        GITHUB TOKEN: {{$secrets.MY_TOKEN}}
