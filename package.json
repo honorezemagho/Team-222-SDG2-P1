@@ -18,8 +18,8 @@
     "test:cover": "jest --coverage",
     "lint": "eslint \"src/**/*.js\"",
     "start": "parcel ./src/index.html",
-    "build": "parcel build src/index.html -d build",
-    "predeploy": "npm run builld",
+    "build": "parcel build src/*.html -d build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "author": {
