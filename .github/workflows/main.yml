@@ -29,9 +29,9 @@ jobs:
        node-version: '12.x'
     - run: |
         npm install
-        parcel build src/*.html -d build
+        npm run build
         
-        - name: Deploy
+    - name: Deploy
         use : crazy—max/ghaction—github—pages@vl
         with:
         target _ branch: gh—pages
