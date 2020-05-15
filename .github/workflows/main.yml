@@ -20,22 +20,21 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - name: Checkout
     - uses: actions/checkout@v2
 
     # Setup Node
     - name: Use Node.js 
       uses: actions/setup-node@v1
       with:
-       node-version: '12.x'
-    - run: |
-        npm install
-        npm run build
+       node-version: "12.x"
+    - run: npm install
+    - run:  npm run build
         
     - name: Deploy
-        uses : 
-          crazy—max/ghaction—github—pages@vl
-        with:
+        uses: crazy—max/ghaction—github—pages@vl
+        with: 
         target_branch: gh—pages
         build dir: build
         env:
-        GITHUB TOKEN: {{$secrets.MY_TOKEN}}
+        GITHUB TOKEN: ${{ secrets.MY_TOKEN }}
