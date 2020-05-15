@@ -32,7 +32,8 @@ jobs:
         npm run build
         
     - name: Deploy
-        use : crazy—max/ghaction—github—pages@vl
+        uses : 
+          crazy—max/ghaction—github—pages@vl
         with:
         target_branch: gh—pages
         build dir: build
