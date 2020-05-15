@@ -21,20 +21,22 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - name: Checkout
-    - uses: actions/checkout@v2
+      uses: actions/checkout@v2
+       with:
+          persist-credentials: false
 
     # Setup Node
     - name: Use Node.js 
       uses: actions/setup-node@v1
       with:
        node-version: "12.x"
-    - run: npm install
-    - run:  npm run build
-        
-    - name: Deploy
-        uses: crazy—max/ghaction—github—pages@vl
-        with: 
-        target_branch: gh—pages
-        build dir: build
-        env:
-        GITHUB TOKEN: ${{ secrets.MY_TOKEN }}
+    run: |
+          npm install
+          npm run build
+
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.MY_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: build # The folder the action should deploy.
