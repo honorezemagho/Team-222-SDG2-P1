@@ -34,7 +34,7 @@ jobs:
     - name: Deploy
         use : crazy—max/ghaction—github—pages@vl
         with:
-        target _ branch: gh—pages
+        target_branch: gh—pages
         build dir: build
         env:
         GITHUB TOKEN: {{$secrets.MY_TOKEN}}
