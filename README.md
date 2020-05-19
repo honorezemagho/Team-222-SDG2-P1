@@ -46,7 +46,6 @@ All tests should be written in the `__tests__' folder. There's a sample in there
 
 This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bundler. It is much simpler that WebPack and the others
 
-
 ## Deployment 
 
 - run `npm run deploy`. This command will first run `npm run build` build files using `parcel` and store it in `build` folder.
