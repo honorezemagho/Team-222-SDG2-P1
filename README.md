@@ -39,9 +39,8 @@ This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bun
 
 ## Deployment 
 
-- run `npm run build` build files using `parcel` and store it in `build` folder.
-
-After you have to
+- run `npm run deploy`. This command will first run `npm run build` build files using `parcel` and store it in `build` folder.
+After this the command will create automatically new branch `gh-pages` to your github repository and push `build` folder inside.
 
 -  create a secret in your github account and name it `MY_TOKEN`  you can put whatever you want as a secret and github will automatically encrypt it. Github will use it to trigger action that is defined in the workflow.
 
