@@ -36,6 +36,17 @@ All tests should be written in the `__tests__' folder. There's a sample in there
 
 This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bundler. It is much simpler that WebPack and the others
 
+
+## Deployment 
+
+- run `npm run build` build files using `parcel` and store it in `build` folder.
+
+After you have to
+
+-  create a secret in your github account and name it `MY_TOKEN`  you can put whatever you want as a secret and github will automatically encrypt it. Github will use it to trigger action that is defined in the workflow.
+
+-  run 'git push' to push your code into your github repository and this will launch the trigger and deploy it to github pages of the project.
+
 #### Hints
 
 - Run `npm install` or `yarn install` to get started. We'll assume you are using Yarn.
