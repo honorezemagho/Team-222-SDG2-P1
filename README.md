@@ -46,6 +46,28 @@ All tests should be written in the `__tests__' folder. There's a sample in there
 
 This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bundler. It is much simpler that WebPack and the others
 
+
+## Firebase
+
+Replace in  `init.js` file your firebase config. [Firebase Setup Url](https://firebase.google.com/docs/database/web/start).
+Steps :
+- Create a New project in your firebase
+- Create a new Database in your project
+- Return to your project dashboard and click  `Add a new App` and choose Web, The icon with `</>`  to create a new app
+- After entering the name of the app and validate, you'll receive configs parameters and then copy and modifiy all parameters `init.js` file.
+
+
+
+After clonning the repo to your local machine and moving into the cloned folder, Run `yarn install` to get started by installing dependencies. 
+
+`src/index.js` is the entry to the project and source code should go into the `src` folder.
+
+All tests should be written in the `__tests__' folder. There's a sample in there.
+
+This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bundler. It is much simpler that WebPack and the others
+
+
+
 ## Deployment 
 
 - run `npm run deploy`. This command will first run `npm run build` build files using `parcel` and store it in `build` folder.
