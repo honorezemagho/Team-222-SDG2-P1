@@ -1,3 +1,4 @@
-const app = async () => '#BuildforSDG';
 
+/* eslint-disable eol-last */
+const app = async () => '#BuildforSDG';
 export default app;

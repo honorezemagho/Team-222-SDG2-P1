@@ -1,3 +1,5 @@
+/* eslint-disable eol-last */
+/* eslint-disable linebreak-style */
 import app from './app';
 
 const startApp = async () => {
